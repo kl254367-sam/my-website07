@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/homeimagetop.jpg');
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(2, 210, 210);
+  padding: 10px 20px;
+  
+}
+header ul li {
+    list-style: none;
+}
+
+/* Search box styling */
+.search-container {
+  position: relative;
+}
+
+.search-container input {
+  padding: 8px 35px 8px 10px; /* space for icon */
+  outline: none;
+  height: 10px;
+}
+
+.search-container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Other header icons */
+.header-icons i {
+  margin-left: 15px;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+ 
+}
+nav{
+    background-color: black;
+text-align: center;
+padding: 1px;
+}
+nav ul li {
+    display: inline;
+    text-align: center;
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a {
+     text-decoration: none;
+     color: white;
+
+}
